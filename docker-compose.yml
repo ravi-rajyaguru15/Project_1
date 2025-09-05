@@ -4,7 +4,7 @@ services:
       context: ./mysql
     container_name: mysql-db
     environment:
-      - MYSQL_ROOT_PASSWORD=vprodbpass
+      - MYSQL_ROOT_PASSWORD=mysqlpass
     volumes:
       - db-data:/var/lib/mysql
     ports:

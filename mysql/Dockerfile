@@ -2,7 +2,7 @@ FROM mysql:8.0.33
 LABEL "Project"="Containerization"
 LABEL "Author"="Ravi"
 
-ENV MYSQL_ROOT_PASSWORD="vprodbpass"
+ENV MYSQL_ROOT_PASSWORD="mysqlpass"
 ENV MYSQL_DATABASE="accounts"
 
 
