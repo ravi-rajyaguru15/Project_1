@@ -114,7 +114,7 @@
                     At HKH CloudApp, we focus on understanding our clients' unique needs and providing tailored solutions that meet their objectives. Whether it's custom software development, system integration, or ongoing support, we are committed to excellence and client satisfaction.
                 </p>
                 <p style="text-align:justify;">
-                    With a commitment to staying ahead of technological trends and a passion for innovation, HKH Infotech is your trusted partner in navigating the digital landscape and achieving your business goals.
+                    With a commitment to staying ahead of technological trends and a passion for innovation, CloudApp is your trusted partner in navigating the digital landscape and achieving your business goals.
                 </p>
                 <p><strong>Address:</strong> Street number, city, country, Earth</p>
                 <p><strong>Phone:</strong> 123456789</p>
