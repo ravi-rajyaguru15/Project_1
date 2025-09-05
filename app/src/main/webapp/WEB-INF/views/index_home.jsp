@@ -111,7 +111,7 @@
                     Our team is led by seasoned DevOps experts with many years of industry experience. They bring a wealth of knowledge in automating and optimizing the software development lifecycle, ensuring that our projects are efficient, reliable, and scalable.
                 </p>
                 <p style="text-align:justify;">
-                    At HKH CloudApp, we focus on understanding our clients' unique needs and providing tailored solutions that meet their objectives. Whether it's custom software development, system integration, or ongoing support, we are committed to excellence and client satisfaction.
+                    At CloudApp, we focus on understanding our clients' unique needs and providing tailored solutions that meet their objectives. Whether it's custom software development, system integration, or ongoing support, we are committed to excellence and client satisfaction.
                 </p>
                 <p style="text-align:justify;">
                     With a commitment to staying ahead of technological trends and a passion for innovation, CloudApp is your trusted partner in navigating the digital landscape and achieving your business goals.
