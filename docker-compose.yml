@@ -4,7 +4,8 @@ services:
       context: ./mysql
     container_name: mysql-db
     environment:
-      - MYSQL_ROOT_PASSWORD=mysqlpass
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
     volumes:
       - db-data:/var/lib/mysql
     ports:
@@ -26,8 +27,8 @@ services:
     ports:
       - "5672:5672"
     environment:
-      - RABBITMQ_DEFAULT_USER=guest
-      - RABBITMQ_DEFAULT_PASS=guest
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_DEFAULT_USER}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_DEFAULT_PASS}
     networks:
       - backend
   
