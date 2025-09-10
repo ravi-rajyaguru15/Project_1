@@ -1,3 +1,33 @@
+# Project 1 — Docker-Compose Full-Stack Web App
+
+First milestone in a three-stage DevOps journey:  
+**Containerisation → Kubernetes → IaC + CI/CD + Observability.**
+
+In this project I containerised a multi-service Java stack and ran it on Docker Compose, hosted on an AWS EC2 instance.
+
+---
+
+## ⚙️ Stack Overview
+
+| Service       | Role                               |
+|---------------|------------------------------------|
+| **Nginx**     | Reverse-proxy on port 80           |
+| **Tomcat**    | Hosts the Java web application     |
+| **MySQL**     | Persistent database (pre-seeded)   |
+| **RabbitMQ**  | Message broker                     |
+| **Memcached** | Caching layer                      |
+| **Maven**     | Multi-stage build (compile + package) |
+
+---
+
+## 🏗️ Key Features
+
+* **One-command compose** — `docker compose up -d` spins up the stack.
+* **Multi-stage Dockerfile** — Maven build layer → lightweight Tomcat runtime.
+* **Named volumes** for MySQL & RabbitMQ so data survives container restarts.
+* **Runs on AWS EC2** (`t2.medium`, Ubuntu 24.04) to expose real cloud-network quirks.
+* **Architecture diagram** — see `docs/architecture-project1.png`.
+
 ## 🚀 Project 1: Dockerized Microservices App with NGINX Reverse Proxy
 
 This project marks the first milestone in a self-designed 3-project DevOps system that mirrors the real-world progression of DevOps workflows:
