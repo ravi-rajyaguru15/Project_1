@@ -30,7 +30,7 @@ By designing this staged system, I created an opportunity to go deeper rather th
 ---------------------------------------------------------------------------------------------------------------------------
 ## Architecture diagram
 
-![Project 1 architecture](images/Project 1 architecture.png)
+![Project 1 architecture](images/Project-1-architecture.png)
 ---------------------------------------------------------------------------------------------------------------------------
 ## 🧱 Application Stack
 
